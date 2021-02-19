@@ -1,0 +1,33 @@
+{
+  "name": "mern-app",
+  "version": "1.0.0",
+  "description": "Mern stack",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlegMikhailov23/mern-app.git"
+  },
+  "keywords": [
+    "mern",
+    "react",
+    "express"
+  ],
+  "author": "Oleg Mikhaylov <dkfolkin@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OlegMikhailov23/mern-app/issues"
+  },
+  "homepage": "https://github.com/OlegMikhailov23/mern-app#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.17"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.7"
+  }
+}
