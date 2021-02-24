@@ -1,5 +1,6 @@
 {
   "port": 8000,
   "jwtSecret": "gevurt zitron",
-  "mongoUri": "mongodb+srv://admin:1234554321@cluster0.dtguw.mongodb.net/app?retryWrites=true&w=majority"
+  "mongoUri": "mongodb+srv://admin:1234554321@cluster0.dtguw.mongodb.net/app?retryWrites=true&w=majority",
+  "baseUrl": "http://localhost:8000"
 }

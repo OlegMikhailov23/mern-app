@@ -1,5 +1,4 @@
-import {useState, useCallback} from "react";
-
+import {useState, useCallback} from 'react'
 // useCallback, does not allow the react to go into recursion
 
 const useHttp = () => {
@@ -19,7 +18,7 @@ const useHttp = () => {
             const data = await response.json();
 
             if(!response.ok) {
-                throw new Error(data.message || 'Oops, ssomething goes wrong:(')
+                throw new Error(data.message || 'Oops, something goes wrong:(')
             }
 
             setLoading(false)
